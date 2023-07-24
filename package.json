@@ -4,7 +4,7 @@
   "description": "",
   "main": "mongodb.js",
   "scripts": {
-    "start": "node mongodb.js.js",
+    "start": "node mongodb.js",
     "test": "jest",
     "build": "node mongodb.js"
   }
