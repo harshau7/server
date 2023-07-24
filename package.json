@@ -5,12 +5,7 @@
   "main": "mongodb.js",
   "scripts": {
     "start": "node mongodb.js",
-<<<<<<< HEAD
     "test": "jest"
-=======
-    "test": "jest",
-    "build": "node mongodb.js"
->>>>>>> 8c43883a74070c16c88d12d81aa0941975d47622
   }
   ,
   "keywords": [],
