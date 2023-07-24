@@ -5,9 +5,9 @@ const { MongoClient } = require('mongodb');
 
 const app = express();
 const cors=require('cors');
-const port = 5000;
+const port = process.env.PORT || 5000;
 
-const uri = "mongodb+srv://atchulaharshanth782:Atchula782@cluster0.ss8uc3c.mongodb.net/?retryWrites=true&w=majority";
+const uri = process.env.mongo_url;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
 // Endpoint to retrieve data from MongoDB
@@ -30,6 +30,6 @@ app.get('/api/data', async (req, res) => {
   } 
 });
 
-app.listen(port, () => {
+app.listen(process.env.PORT || port, () => {
   console.log(`Server is running on port ${port}`);
 });

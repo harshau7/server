@@ -1,0 +1,14 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mongodb.js",
+  "scripts": {
+    "start": "node mongodb.js",
+    "test": "jest"
+  }
+  ,
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
